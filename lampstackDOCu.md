@@ -9,6 +9,9 @@ This documentation outlines the step-by-step setup, configuration, and usage of 
 1. **EC2 Instance**:
     - Launch an Ubuntu 24.04 LTS EC2 instance using the **t3.micro** type (free tier eligible).
 - Create and download a **PEM file** during the launch (you’ll need this to SSH into the instance).
+![Create-2c-instance](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/createe2c.PNG)
+
+
 
 
 
