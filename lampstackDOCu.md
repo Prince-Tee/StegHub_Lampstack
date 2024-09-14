@@ -91,8 +91,8 @@ MySQL is the database engine that will store and manage your website’s data.
 
     ```bash
     sudo apt install mysql-server
-```
-
+``
+![sqlinstall](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/mysql%20install.PNG)
 
 2. Secure MySQL installation:
 
@@ -103,13 +103,12 @@ MySQL is the database engine that will store and manage your website’s data.
 Follow the prompts to configure your root password and remove insecure default settings.
 
 
-
 3. Log into MySQL:
 
     ```bash
     sudo mysql -p
-```
-
+``
+![loginsql](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/acessmysql.PNG)
 
 
     You’ll be prompted to enter the root password you configured.
@@ -119,6 +118,7 @@ Follow the prompts to configure your root password and remove insecure default s
     ```bash
     ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yourpassword';
     ```
+![setsqlpassword](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/settingsqlpassword.PNG)
 
 ---
 
