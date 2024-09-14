@@ -13,11 +13,6 @@ This documentation outlines the step-by-step setup, configuration, and usage of 
 
 ![Instancerunning](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/running.PNG)
 
-
-
-
-
-
     
     Example SSH command (replace the placeholder values with your actual information):
 
@@ -30,7 +25,11 @@ This documentation outlines the step-by-step setup, configuration, and usage of 
     - In the EC2 dashboard, configure the **inbound rules** of your security group to allow traffic on:
         - **Port 22 (SSH)** – for connecting to the instance.
         - **Port 80 (HTTP)** – for web traffic.
-       
+ ![port80](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/add%20port80.PNG)
+
+
+
+
 
 ---
 
@@ -49,7 +48,7 @@ Apache will serve web pages to users from your web server. Begin by updating the
     ```bash
     sudo apt install apache2
     ```
-
+![instalapache](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/install%20apache.PNG)
 3. Enable and start Apache:
 
     ```bash
@@ -70,15 +69,18 @@ Apache will serve web pages to users from your web server. Begin by updating the
     ```bash
     curl http://localhost:80
     ```
+    ![apache](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/apacheConfirmed.PNG)
 
     You should see an HTML response from the Apache default page. You can also visit your instance's public IP in a browser:
 
     ```
     http://<YOUR_INSTANCE_PUBLIC_IP>:80
     ```
-
+  ![apacheonterinak](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/apache%20on%20terminal.PNG)
+  
     You should see the default Apache landing page ("It works!").
-
+  ![apacheonweb](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/apache%20on%20webbrowser.PNG)
+  
 ---
 
 ## Step 2: Install MySQL
