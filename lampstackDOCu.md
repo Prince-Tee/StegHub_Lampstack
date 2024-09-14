@@ -11,6 +11,8 @@ This documentation outlines the step-by-step setup, configuration, and usage of 
 - Create and download a **PEM file** during the launch (you’ll need this to SSH into the instance).
 ![Create-2c-instance](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/createe2c.PNG)
 
+![Instancerunning](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/running.PNG)
+
 
 
 
