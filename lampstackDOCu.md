@@ -131,9 +131,6 @@ PHP processes code on the server and displays dynamic content to the user. You�
     ```bash
 sudo apt install php libapache2-mod-php php-mysql
 
-
-
-
 ![installphp](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/php%20install.PNG)
 
 
@@ -191,6 +188,11 @@ You’ll now configure Apache to host your web project under a separate director
     sudo a2ensite projectlamp.conf
     ```
 
+
+![enablevh](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/enable%20VH.PNG)
+
+
+
 6. Disable Apache's default virtual host to avoid conflicts:
 
     ```bash
@@ -212,6 +214,10 @@ You’ll now configure Apache to host your web project under a separate director
     ```
 ## Step 6: Test HTML Processing
 
+![html](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/html.PNG)
+
+![htmlbroswer](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/brower%20html.PNG)
+
 ---
 
 DELETE index.html for index.php to show using  rm index.html
@@ -227,7 +233,7 @@ DELETE index.html for index.php to show using  rm index.html
 2. Create a basic `index.php` file to test PHP:
 
     ```bash
-    vim index.php
+    nano index.php
     ```
 
 3. Add the following content:
