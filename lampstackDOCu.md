@@ -133,6 +133,10 @@ sudo apt install php libapache2-mod-php php-mysql
 
 
 
+
+![installphp](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/php%20install.PNG)
+
+
     ```
 
 2. Verify PHP installation:
@@ -166,6 +170,7 @@ You’ll now configure Apache to host your web project under a separate director
     ```bash
     sudo vim /etc/apache2/sites-available/projectlamp.conf
     ```
+![sites](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/ls%20sites%20available.PNG)
 
 4. Add the following configuration:
 
@@ -190,7 +195,7 @@ You’ll now configure Apache to host your web project under a separate director
 
     ```bash
     sudo a2dissite 000-default.conf
-```
+``
 
 
 
@@ -232,6 +237,7 @@ DELETE index.html for index.php to show using  rm index.html
     phpinfo();
     ?>
     ```
+![phpcontent](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/phpcontent.PNG)
 
 4. Access this file by visiting your EC2 instance’s IP address:
 
@@ -240,8 +246,9 @@ DELETE index.html for index.php to show using  rm index.html
     ```
 
     You should see a PHP information page, which verifies PHP is working correctly.
+  ![phpbrowser](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/php%20browser.PNG)
 
-5. After verifying, delete the `index.php` file as it contains sensitive information:
+6. After verifying, delete the `index.php` file as it contains sensitive information:
 
     ```bash
     sudo rm index.php
