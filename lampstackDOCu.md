@@ -19,7 +19,7 @@ This documentation outlines the step-by-step setup, configuration, and usage of 
     ```bash
     ssh -i "lampproject.pem" ubuntu@13.60.179.1
     ```
-
+![connecte2c](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/connect-e2c-windows.PNG)
 
 2. **Security Group Configuration**:
     - In the EC2 dashboard, configure the **inbound rules** of your security group to allow traffic on:
@@ -213,6 +213,8 @@ You’ll now configure Apache to host your web project under a separate director
     sudo systemctl reload apache2
     ```
 ## Step 6: Test HTML Processing
+
+![createhtml](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/create%20html.PNG)
 
 ![html](https://github.com/Prince-Tee/StegHub_Lampstack/blob/main/lampstack%20images/html.PNG)
 
